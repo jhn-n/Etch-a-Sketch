@@ -1,0 +1,36 @@
+body {
+    box-sizing: content-box;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(126, 126, 228);
+}
+
+.container {
+    margin: 20px;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(1, 1, 31);
+    color: blanchedalmond;
+
+}
+.grid {
+    width: 960px;
+    height: 960px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    width: 58px;
+    height: 58px;
+    background-color: rgb(238, 233, 225);
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px;
+}
+
